@@ -1,2 +1,3 @@
 class Golf
+  
 end
