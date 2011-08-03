@@ -10,7 +10,7 @@ If you don't, then just clone this.
 Either way, cd into the resultant folder on your machine and run 'rake' on the command line - you should get some failing tests followed by a character count. 
 
 == How to play
-Ruby Golf is a game whereby the player is required to solve a number of problems (holes) in the fewest characters possible.  The course consists of nine holes that you must implement.  The holes are class methods that need to written in the Golf class (lib/golf.rb).  The requirements for these methods is specified by a set of RSpec examples for each hole (spec/golf_spec.rb).  To run the specs, simply run:
+Ruby Golf is a game whereby the player is required to solve a number of problems (holes) in the fewest characters possible.  The course consists of nine holes that you must implement.  The holes are class methods that need to be added to the Golf class (lib/golf.rb).  The requirements for these methods is specified by a set of RSpec examples for each hole (spec/golf_spec.rb).  To run the specs, simply run:
 
   rake
 
