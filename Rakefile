@@ -5,6 +5,7 @@ require 'spec/rake/spectask'
 COUNT_WHITESPACE = false
 
 Spec::Rake::SpecTask.new(:spec) do |spec|
+  spec.fail_on_error = false
   spec.libs << 'lib' << 'spec'
   spec.spec_files = FileList['spec/**/*_spec.rb']
 end
