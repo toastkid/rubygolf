@@ -7,7 +7,7 @@
 == Setup
 If you have a github account, fork this and then clone your new forked version onto your machine.
 If you don't, then just clone this.
-Either way, cd into the resultant folder on your machine and run 'rake' on the command line - you should get some failing tests followed by a character count.
+Either way, cd into the resultant folder on your machine and run 'rake' on the command line - you should get some failing tests followed by a character count.  The tests are all listed in spec/golf_spec.rb, and they all require you to write class methods in the Golf class which is in lib/golf.rb.
 
 These tests were designed to run in ruby 1.8.7, with no gems other than rspec.  Use another version of ruby if you want.  Use the internet if you want.  Creative solutions are allowed but please don't just go and look up the solutions off an LRUG blog or something.
 
@@ -16,4 +16,4 @@ Ruby Golf is a game whereby the player is required to solve a number of problems
 
   rake
 
-The first time you run this, all tests will fail.  The aim is to get all test to pass.  Building will also report the number of characters you took to complete the course.  The fewer characters you use, the better.
+The first time you run this, all tests will fail.  The aim is to get all tests to pass.  rake will also report the number of characters you took to complete the course.  The fewer characters you use, the better - whitespace doesn't count.
