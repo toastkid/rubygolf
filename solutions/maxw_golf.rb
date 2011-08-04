@@ -1,3 +1,4 @@
+#by Max Williams, toastkid.williams@gmail.com
 class Golf
   def self.hole1(arr)
     arr.inject{|result, element| result * element}

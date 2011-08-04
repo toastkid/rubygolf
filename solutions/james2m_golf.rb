@@ -1,5 +1,5 @@
+#By James McCarthy, james2mccarthy@gmail.com
 class Golf
-  
   
   class << self
     
